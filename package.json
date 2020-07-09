@@ -1,0 +1,38 @@
+{
+	"name": "jordan-uses-marketstack",
+	"version": "1.0.0",
+	"description": "Jordan shows examples of using marketstack.com, an API that provides real-time stock market data.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"start": "tsc && node ./dist/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/aarmora/jordan-uses-marketstack.git"
+	},
+	"keywords": [
+		"typescript",
+		"marketstack.com",
+		"stock",
+		"market",
+		"stock",
+		"market",
+		"api"
+	],
+	"author": "Jordan Hansen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/aarmora/jordan-uses-marketstack/issues"
+	},
+	"homepage": "https://github.com/aarmora/jordan-uses-marketstack#readme",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {
+		"@types/axios": "^0.14.0",
+		"@types/dotenv": "^8.2.0",
+		"@types/node": "^14.0.20",
+		"typescript": "^3.9.6"
+	}
+}
